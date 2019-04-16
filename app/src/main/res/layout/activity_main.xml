@@ -7,6 +7,19 @@
     android:background="@android:color/white"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="379dp"
+        android:padding="6dp"
+        android:text="contact@uscarehomecare.org"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="400dp"
@@ -36,13 +49,66 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView3"
+    <ImageButton
+        android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="59dp"
-        android:layout_marginTop="245dp" />
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="252dp"
+        android:background="@android:color/white"
+        android:padding="6dp"
+        android:src="@drawable/ic_action_location" />
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="250dp"
+        android:padding="6dp"
+        android:text="425 Benson Ave SW Willmar, MN 56201"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="325dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="310dp"
+        android:padding="6dp"
+        android:text="Phone: (123)-456-7890"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="309dp"
+        android:background="@android:color/white"
+        android:padding="6dp"
+        app:srcCompat="@drawable/ic_action_phone_start" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginBottom="306dp"
+        android:background="@android:color/white"
+        android:padding="6dp"
+        app:srcCompat="@drawable/ic_action_mail" />
 
 </RelativeLayout>
